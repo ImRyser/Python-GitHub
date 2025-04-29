@@ -1,10 +1,5 @@
-def agecheck():
-    current_age = int(input("age?   "))
-    if current_age >= 16:
-        print ("No drive")
-    else:
-        print("No drive")
-
-agecheck()
-agecheck()
-agecheck()
+input("What is your name: ")
+print("Activity")
+print("Cultural immersion. This is for 5 days and is considered “easy” and costs $800. ")
+print("Kayaking and pancakes. This is for 3 days and is considered “moderate” and costs $ 400. ")
+print("Mountain biking. This is for 4 days and is considered “difficult” and costs $900. ")
