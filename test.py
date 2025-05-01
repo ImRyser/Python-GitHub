@@ -7,7 +7,10 @@ if current_age < 5:
 else:
  print("You are able to go")
 print("Activity")
-print("Cultural immersion. This is for 5 days and is considered “easy” and costs $800. ")
-print("Kayaking and pancakes. This is for 3 days and is considered “moderate” and costs $ 400. ")
-print("Mountain biking. This is for 4 days and is considered “difficult” and costs $900. ")
-input("Choose your activity: ")
+print("1.Cultural immersion. This is for 5 days and is considered “easy” and costs $800. ")
+print("2.Kayaking and pancakes. This is for 3 days and is considered “moderate” and costs $ 400. ")
+print("3.Mountain biking. This is for 4 days and is considered “difficult” and costs $900. ")
+place = input("Choose your activity: ")
+if place == "1":
+ print(f"{first_name} age {current_age} has chosen Cultural immersion as their activity.")
+if place == "2":
