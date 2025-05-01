@@ -12,5 +12,8 @@ print("2.Kayaking and pancakes. This is for 3 days and is considered “moderate
 print("3.Mountain biking. This is for 4 days and is considered “difficult” and costs $900. ")
 place = input("Choose your activity: ")
 if place == "1":
- print(f"{first_name} age {current_age} has chosen Cultural immersion as their activity.")
+ print(f"{first_name} age {current_age} has chosen Cultural immersion.")
 if place == "2":
+ print(f"{first_name} age {current_age} has chosen Kayaking and pancakes.")
+if place == "3":
+ print(f"{first_name} age {current_age} has chosen mountain biking.")
