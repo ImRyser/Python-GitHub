@@ -1,3 +1,4 @@
+print("Welcome to the camp sign up, please answer these questions")
 first_name = input("What is your name: ")
 current_age = int(input("What is your age: "))
 if current_age > 17:
