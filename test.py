@@ -1,9 +1,11 @@
 first_name = input("What is your name: ")
 current_age = int(input("What is your age: "))
-if current_age > 18 < 5:
+if current_age > 17:
  print("You're too old")
-else:
- print("You are able to go")
+if current_age < 5:
+ print("You are too young")
+if current_age == [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]:
+ print("You are able to go:")
  print("Activity")
  print("1. Cultural immersion. This is for 5 days and is considered “easy” and costs $800. ")
  print("2. Kayaking and pancakes. This is for 3 days and is considered “moderate” and costs $ 400. ")
